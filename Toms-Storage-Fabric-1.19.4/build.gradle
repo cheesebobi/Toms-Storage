@@ -78,14 +78,13 @@ dependencies {
 sourceSets {
 	main {
 		java {
-			srcDir "../TomsStorage-119/src/shared/java"
-			srcDir "../TomsStorageFabric-1.19/src/loader-shared/java"
-			srcDir "../TomsStorage-1194/src/platform-shared/java"
+			srcDir "C:/Users/Kuba Woloszyn/Desktop/Fabric Modding/git2/Toms-Storage/Toms-Storage-119/src/shared/java"
+			srcDir "C:/Users/Kuba Woloszyn/Desktop/Fabric Modding/git2/Toms-Storage/Toms-Storage-Fabric-1.19/src/loader-shared/java"
+			srcDir "C:/Users/Kuba Woloszyn/Desktop/Fabric Modding/git2/Toms-Storage/Toms-Storage-1194/src/platform-shared/java"
 		}
 		resources {
-			srcDir "../TomsStorage-119/src/shared/resources"
-			srcDir "../TomsStorageFabric-1.19/src/loader-shared/resources"
-			srcDir "../TomsStorage-1194/src/platform-shared/resources"
+			srcDir "C:/Users/Kuba Woloszyn/Desktop/Fabric Modding/git2/Toms-Storage/Toms-Storage-119/src/shared/resources"
+			srcDir "C:/Users/Kuba Woloszyn/Desktop/Fabric Modding/git2/Toms-Storage/Toms-Storage-1194/src/platform-shared/resources"
 		}
 	}
 }

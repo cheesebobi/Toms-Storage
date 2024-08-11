@@ -361,7 +361,7 @@ public abstract class AbstractStorageTerminalScreen<T extends StorageTerminalMen
 		if(menu.beaconLvl > 0) {
 			int x = 176;
 			int y = 24 + rowCount * 18;
-			renderItem(st, new ItemStack(Items.BEACON), leftPos + x, topPos + y);
+			renderItem(st, new ItemStack(Items.ENDER_PEARL), leftPos + x, topPos + y);
 
 			if(isHovering(x, y, 16, 16, mouseX, mouseY)) {
 				String info;

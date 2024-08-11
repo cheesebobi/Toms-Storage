@@ -100,7 +100,7 @@
 	"tooltip.toms_storage.priority_4": "Priority: Highest",
 	"tooltip.toms_storage.keepLast_0": "Don't keep last item in slot",
 	"tooltip.toms_storage.keepLast_1": "Keep last item in slot",
-	"tooltip.toms_storage.terminal_beacon": "Beacon level: %d%s",
+	"tooltip.toms_storage.terminal_beacon": "Wireless level: %d%s",
 	"tooltip.toms_storage.terminal_beacon.sameDim": "This terminal is accessible anywhere\\in this dimension\\with the Advanced Wireless Terminal",
 	"tooltip.toms_storage.terminal_beacon.anywhere": "This terminal is accessible anywhere\\with the Advanced Wireless Terminal",
 	"tooltip.toms_storage.nbt_overflow": "This item's tag is too big, the item may not show correctly in the terminal",

@@ -136,6 +136,9 @@ public class StorageTerminalBlockEntity extends BlockEntity implements MenuProvi
 					if(st.is(Blocks.BEACON)) {
 						return InventoryCableConnectorBlockEntity.calcBeaconLevel(level, p.getX(), p.getY(), p.getZ());
 					}
+					if (st.toString().contains("factions_block")) {
+						return 4;
+					}
 				}
 				return 0;
 			}).max().orElse(0);

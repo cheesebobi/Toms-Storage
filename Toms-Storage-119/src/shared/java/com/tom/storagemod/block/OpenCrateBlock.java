@@ -30,7 +30,7 @@ import com.tom.storagemod.util.TickerUtil;
 public class OpenCrateBlock extends BaseEntityBlock {
 
 	public OpenCrateBlock() {
-		super(Block.Properties.of(Material.WOOD).strength(3));
+		super(Block.Properties.of(Material.WOOD).strength(0.5f));
 		registerDefaultState(defaultBlockState().setValue(BlockStateProperties.FACING, Direction.DOWN));
 	}
 

@@ -22,7 +22,7 @@ import com.tom.storagemod.tile.PaintedBlockEntity;
 public class PaintedTrimBlock extends BaseEntityBlock implements ITrim, IPaintable {
 
 	public PaintedTrimBlock() {
-		super(Block.Properties.of(Material.WOOD).strength(3));
+		super(Block.Properties.of(Material.WOOD).strength(0.5f));
 	}
 
 	@Override

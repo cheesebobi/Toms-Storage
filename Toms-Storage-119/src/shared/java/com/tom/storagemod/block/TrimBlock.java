@@ -18,7 +18,7 @@ import com.tom.storagemod.StorageModClient;
 public class TrimBlock extends Block implements ITrim, IPaintable {
 
 	public TrimBlock() {
-		super(Block.Properties.of(Material.WOOD).strength(3));
+		super(Block.Properties.of(Material.WOOD).strength(0.5f));
 	}
 
 	@Override

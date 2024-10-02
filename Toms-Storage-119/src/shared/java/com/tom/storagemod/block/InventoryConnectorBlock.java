@@ -30,7 +30,7 @@ import com.tom.storagemod.util.TickerUtil;
 public class InventoryConnectorBlock extends BaseEntityBlock implements IInventoryCable {
 
 	public InventoryConnectorBlock() {
-		super(Block.Properties.of(Material.WOOD).strength(3));
+		super(Block.Properties.of(Material.WOOD).strength(0.5f));
 	}
 
 	@Override

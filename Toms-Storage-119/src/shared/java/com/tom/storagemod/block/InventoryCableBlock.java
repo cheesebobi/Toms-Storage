@@ -38,7 +38,7 @@ public class InventoryCableBlock extends PipeBlock implements SimpleWaterloggedB
 	public static final BooleanProperty[] DIR_TO_PROPERTY = new BooleanProperty[] {DOWN, UP, NORTH, SOUTH, WEST, EAST};
 
 	public InventoryCableBlock() {
-		super(0.125f, Block.Properties.of(Material.WOOD).strength(2));
+		super(0.125f, Block.Properties.of(Material.WOOD).strength(0.5f));
 		registerDefaultState(defaultBlockState()
 				.setValue(DOWN, false)
 				.setValue(UP, false)

@@ -44,7 +44,7 @@ public class BasicInventoryHopperBlock extends BaseEntityBlock implements IInven
 	public static final BooleanProperty ENABLED = BlockStateProperties.ENABLED;
 
 	public BasicInventoryHopperBlock() {
-		super(Block.Properties.of(Material.WOOD).strength(3).noOcclusion());
+		super(Block.Properties.of(Material.WOOD).strength(0.5f).noOcclusion());
 		registerDefaultState(defaultBlockState()
 				.setValue(FACING, Direction.DOWN).setValue(ENABLED, Boolean.valueOf(true)));
 	}

@@ -44,7 +44,7 @@ public class LevelEmitterBlock extends BaseEntityBlock implements IInventoryCabl
 	public static final BooleanProperty POWERED = BlockStateProperties.POWERED;
 
 	public LevelEmitterBlock() {
-		super(Block.Properties.of(Material.WOOD).strength(3).noOcclusion());
+		super(Block.Properties.of(Material.WOOD).strength(0.5f).noOcclusion());
 		registerDefaultState(defaultBlockState()
 				.setValue(FACING, Direction.DOWN).setValue(POWERED, Boolean.valueOf(false)));
 	}

@@ -57,7 +57,7 @@ public class InventoryCableConnectorBlock extends BaseEntityBlock implements IIn
 	}
 
 	protected InventoryCableConnectorBlock(boolean dummy) {
-		super(Block.Properties.of(Material.WOOD).strength(3).noOcclusion());
+		super(Block.Properties.of(Material.WOOD).strength(0.5f).noOcclusion());
 		this.shapes = this.makeShapes(0.125f);
 		registerDefaultState(defaultBlockState()
 				.setValue(DOWN, false)
